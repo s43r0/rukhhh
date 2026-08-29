@@ -1,0 +1,28 @@
+RUKH BY MAH — VERCEL DEPLOYMENT CHECKLIST
+
+Repository root should contain:
+index.html
+collection.html
+articles.html
+upcoming.html
+why-us.html
+reviews.html
+location.html
+customer-care.html
+404.html
+robots.txt
+sitemap.xml
+favicon.svg
+vercel.json
+assets/
+
+VERCEL SETTINGS
+Framework Preset: Other
+Root Directory: ./
+Build Command: empty
+Install Command: empty
+Output Directory: empty
+
+This is a zero-build static website. No Node/npm installation is required.
+
+Vercel is configured for clean extensionless URLs, security response headers and immutable caching for /assets/.
